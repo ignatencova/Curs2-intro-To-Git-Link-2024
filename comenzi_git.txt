@@ -7,4 +7,16 @@ git init
 git clone http://github.com/username/projects
 
 
-##
+## Imi arata lista de comituri
+git log
+git log --oneline
+
+## Arata statusul fisierelor
+git status
+git status -s
+
+## Comenzi de creare a comitului
+git add filename
+git add .
+git add filename.*
+git add filename1 filename2 filename3
